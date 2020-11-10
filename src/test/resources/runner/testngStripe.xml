@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <suite name="Suite" parallel="tests"> -->
+
+	<listeners>
+
+		<listener
+			class-name="APITestingFramework.listeners.ExtentListeners">
+		</listener>
+	</listeners>
+
+	<!-- <test name="Create Customer API Test">
+		<classes>
+			<class
+				name="APITestingFramework.testcases.stripe.CreateCustomerTest" />
+		</classes>
+	</test>  -->
+
+	<test name="Delete Customer API Test">
+		<classes>
+			<class
+				name="APITestingFramework.testcases.stripe.DeleteCustomerTest" />
+		</classes>
+	</test>
+	
+
+</suite> <!-- Suite -->
