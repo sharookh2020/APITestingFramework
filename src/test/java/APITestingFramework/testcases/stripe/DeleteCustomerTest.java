@@ -19,6 +19,8 @@ import io.restassured.response.Response;
 import io.restassured.path.json.JsonPath;
 
 public class DeleteCustomerTest extends BaseTest{
+	
+	//Delete Customer
   
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "data")
   public void deleteCustomer(Hashtable<String, String> data) {
